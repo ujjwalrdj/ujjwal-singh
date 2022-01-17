@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+ margin: 0px; 
+ padding: 0px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+p{
+    display: inline;
+    padding: 9px;
+    font-size: large;
+    cursor: pointer;   
+}
+.menu{
+    padding: 8px;
+    background-color:brown;
+    color: white;
+}
+p:hover{
+    background-color:lightseagreen;
+ }
+.container{
+    background-color: red;
+}
+.container ul a{
+    text-decoration: none;
+    color: white;
+}
+.container ul a:hover{
+    color: yellow;
+}
+.picture{
+    margin-left: 100px;
+    margin-top: 200px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;    
+}
+.container h2{
+    text-decoration: underline;
+    margin-left: 100px;
+    background-color:red;
+    margin-top: 0px;
+    padding-top: 30px;
+    
+}
